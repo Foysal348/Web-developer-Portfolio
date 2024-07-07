@@ -1,0 +1,129 @@
+/* Nav Styles */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size:50px;
+
+}
+.button-primary{
+    
+    font-weight:bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius:5px;
+    background-color:#FD6E0A ;
+    font-size: 20px;
+    border: none;
+
+}
+.text-center{
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color:#181818;
+}
+.section-description{
+    font-size: 15px;
+    color:#757575;
+}
+.header{
+    background-image:url('./images/developer.png'),url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul a {
+    text-decoration: none;
+}
+nav ul a{
+    color: none;
+    font-size: 20px;
+}
+.dark-2{
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+/* banner style */
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-portfolio-pic{
+    width: 580px;
+}
+
+.banner{
+    display: flex; 
+    justify-content: space-between;
+    /* margin:0 35px 0 200px; */
+}
+.banner-content{
+    max-width: 580px;
+}
+/* About  */
+.about{
+    border-radius: 8px;
+
+
+}
+/* main styles  */
+main{
+    /* max-width: 1140px;  */
+    /* margin: 0 auto;  */
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.item-title{
+    font-weight:bold;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+/* skill section style  */
+.skills-container{
+    display:flex;
+    gap:25px;
+} 
+.skill{
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
